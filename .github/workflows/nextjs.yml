@@ -7,7 +7,7 @@ on:
 jobs:
   Deploy:
     name: Deploy to GFE STG
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     environment: production
     
     steps:
